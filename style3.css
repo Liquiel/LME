@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.historia-es {
+    text-align: justify;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.historia-es h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+.bandera-es {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.bandera-es img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 312px;
+    transition: 0.5s;
+}
+
+.bandera-es:hover img {
+    height: 100px;
+    visibility: hidden;
+    left: 90%;
+}
+
+.bandera-es .content {
+    position: relative;
+    width: 90%;
+    left: 10%;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+.bandera-es .content p {
+    font-size: 12px;
+}
+
+.bandera-es:hover .content {
+    left: 4%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.bandera-es p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+.ave-es {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 16%;
+    margin-top: 5%;
+
+}
+
+.ave-es img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 312px;
+    transition: 0.5s;
+}
+
+.ave-es:hover img {
+    height: 100px;
+    visibility: hidden;
+    left: 90%;
+}
+
+.ave-es .content {
+    position: relative;
+    width: 90%;
+    left: 10%;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+.ave-es .content p {
+    font-size: 12px;
+}
+
+.ave-es:hover .content {
+    left: 4%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.ave-es p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.flor-es {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 1%;
+
+}
+
+.flor-es img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 312px;
+    transition: 0.5s;
+}
+
+.flor-es:hover img {
+    height: 100px;
+    visibility: hidden;
+    left: 90%;
+}
+
+.flor-es .content {
+    position: relative;
+    width: 90%;
+    left: 10%;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+.flor-es .content p {
+    font-size: 12px;
+}
+
+.flor-es:hover .content {
+    left: 4%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.flor-es p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+.arbol-es {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 16%;
+    margin-top: 5%;
+
+}
+
+.arbol-es img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 312px;
+    transition: 0.5s;
+}
+
+.arbol-es:hover img {
+    height: 100px;
+    visibility: hidden;
+    left: 90%;
+}
+
+.arbol-es .content {
+    position: relative;
+    width: 90%;
+    left: 10%;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+.arbol-es .content p {
+    font-size: 12px;
+}
+
+.arbol-es:hover .content {
+    left: 4%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.arbol-es p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.escudo-es {
+    position: relative;
+
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 35%;
+    margin-top: 3%;
+
+}
+
+.escudo-es img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 312px;
+    transition: 0.5s;
+}
+
+.escudo-es:hover img {
+    height: 100px;
+    visibility: hidden;
+    left: 90%;
+}
+
+.escudo-es .content {
+    position: relative;
+    width: 90%;
+    left: 10%;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+.escudo-es .content p {
+    font-size: 12px;
+}
+
+.escudo-es:hover .content {
+    left: 4%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.escudo-es p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.contenedor3 {
+    text-align: justify;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10%;
+}
+.contenedor3 img{
+  margin: auto;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+.contenedor3 h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  
+  }
+.contenedor3 > img:hover{
+    transform: scale(1.1);
+    transition: 1.5s all ease;
+  }
